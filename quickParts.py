@@ -8,6 +8,7 @@ import time
 import webbrowser
 import jdfilters
 import catalogs
+import misc
 
 global question
 global answer
@@ -27,6 +28,12 @@ def answer():
                         ask_a_question(question)
                 elif 'catalog'.lower() in question:
                         ask_a_question2(question)
+                elif 'how'.lower() in question:
+                        ask_a_question3(question)
+                elif 'what'.lower() in question:
+                        ask_a_question3(question)
+                elif 'show'.lower() in question:
+                        ask_a_question3(question)
                 elif 'exit'.lower() in question:
                         exit(question)
                 else:
@@ -44,6 +51,9 @@ def ask_a_question(answer):
 
 def ask_a_question2(answer):
                 catalogs.catalog_question(answer)
+
+def ask_a_question3(answer):
+                misc.misc_question(answer)
 
 def exit(question):
         print("Exiting quickParts.....", question)
