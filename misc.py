@@ -16,7 +16,6 @@ def misc_question(answer):
                     #--------------------------------
                     #start of Catalogs
                     #--------------------------------               
-
                     #John Deere Misc Catalogs
                     #if-else loop filter/capacities
             if answer.lower() == "what is the new business band connectors":
