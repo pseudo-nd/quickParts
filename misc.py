@@ -10,7 +10,6 @@ def misc_question(answer):
     print('Searching through alot of indexes....' +answer)
     print('----------------------------------')
     print('Found....--> ' +answer)
-    print('Sent to browser....')
     print('----------------------------------')
     while True:
         try:
@@ -57,6 +56,50 @@ def misc_question(answer):
 
             elif answer.lower() == "show me batteries":
                 webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/featbene/DKD1631BatteryGuide.pdf')
+
+            elif answer.lower() == "what is the part number for proseries openers":
+                print("AA97392", "8 rows (4right/4left)")
+                print("AA98693", "2 rows (1right/1left)")
+
+            elif answer.lower() == "what is the part number for proseries":
+                print("AA97392", "8 rows (4right/4left)")
+                print("AA98693", "2 rows (1right/1left)")
+
+            elif answer.lower() == "what is good better best harvest parts":
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/pmac/60130_PlatformWearParts.htm')
+            elif answer.lower() == "gbb harvest":
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/pmac/60130_PlatformWearParts.htm')
+
+            elif answer.lower() == "how many guards on a header":
+                print('600R', '600F', '900D')	
+                print('Platform', 'Length',	'Number of Guards')
+                print('15 ft',	'15 S/L/S', '15 L/S/L')
+                print('18 ft',	'18 S/L/S', '18 L/S/L')
+                print('20 ft',	'20 S/L/S', '20 L/S/L')
+                print('22 ft',	'22 S/L/S', '22 L/S/L')
+                print('25 ft',	'25 S/L/S', '25 L/S/L')
+                print('30 ft',	'30 S/L/S', '30 L/S/L')
+                print('35 ft',	'34 S/L/S', '34 L/S/L')
+                print('36 ft',	'36 S/L/S', '36 L/S/L')
+                print('--------------------------------')
+                print('--------------------------------')
+                print('200', '900', '900F', '900R')	
+                print('Platform Length',	'Number of Guards')
+                print('13 ft','                  ', '24')
+                print('15 ft','                  ', '28')
+                print('16 ft','                  ', '30')
+                print('18 ft','                  ', '34')
+                print('20 ft','                  ', '38')
+                print('22 ft Rigid','            ', '42')
+                print('22 ft Flex','             ', '39')
+                print('24 ft','                  ', '46')
+                print('25 ft','                  ', '49')
+                print('30 ft','                  ', '58')
+                print('--------------------------------')
+                print('--------------------------------')
+
+
+
         except:
             print("Some error Chad has not thought of occurred....please due tell!")
         break

@@ -1835,35 +1835,35 @@ def filter_question(answer):
                 #if-else loop filters/capacities
             if answer.lower() == "9560sts filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9660sts filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9760sts filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9860sts filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9560 filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9660 filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9760 filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
             if answer.lower() == "9860 filters":
 
-                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060STScombine_filters_links.pdf')
+                webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/9060stscombine_filters_links.pdf')
 
 
                 #9070 Series STS Combines 9570 STS, 9670 STS, 9770 STS, 9870 STS
