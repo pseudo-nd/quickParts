@@ -35,11 +35,7 @@ def answer():
                 elif 'show'.lower() in question:
                         ask_a_question3(question)
                 elif 'exit'.lower() in question:
-                        exit(question)
-                else:
-                        print('')
-                        raise Exception("------------------------------------- \n[I do not understand that] \n-------------------------------------")
-                        
+                        exit(question)                        
         except:
                 print("------------------------------------- \n[I do not understand that] \n-------------------------------------")
                 answer()
