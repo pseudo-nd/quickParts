@@ -1964,8 +1964,27 @@ def filter_question(answer):
                 webbrowser.open('https://jdparts.deere.com/partsmkt/document/english/checklst/S_SeriesFT4Combines.pdf')
                 print('Notice: serial of Combine')
 
+            if answer.lower() == "s760 filters":
 
-                #T670 COmBINe
+                webbrowser.open("https://jdparts.deere.com/partsmkt/document/english/featbene/S700SeriesCombines.pdf")
+                print('Notice:serial of Combine')
+
+            if answer.lower() == "s770 filters":
+
+                webbrowser.open("https://jdparts.deere.com/partsmkt/document/english/featbene/S700SeriesCombines.pdf")
+                print('Notice:serial of Combine')
+
+            if answer.lower() == "s780 filters":
+
+                webbrowser.open("https://jdparts.deere.com/partsmkt/document/english/featbene/S700SeriesCombines.pdf")
+                print('Notice:serial of Combine')
+
+            if answer.lower() == "s790 filters":
+
+                webbrowser.open("https://jdparts.deere.com/partsmkt/document/english/featbene/S700SeriesCombines.pdf")
+                print('Notice:serial of Combine')
+
+                #T670 Ccombine
                 #if-else loop filters/capacities
             if answer.lower() == "t670 filters":
 
