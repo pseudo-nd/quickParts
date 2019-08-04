@@ -36,6 +36,8 @@ def answer():
                         ask_a_question3(question)
                 elif 'show'.lower() in question:
                         ask_a_question3(question)
+                elif 'macdon'.lower() in question:
+                        ask_a_question4(question)
                 else:
                         print('')
                         raise Exception("------------------------------------- \n[I do not understand that] \n-------------------------------------")
@@ -52,6 +54,8 @@ def ask_a_question2(amswer):
         catalogs.catalog_question(answer)
 def ask_a_question3(answer):
         misc.misc_question(answer)
+def ask_a_question4(answer):
+        macdon.macdon_question(answer)
 def exit(answer):
         print("Exiting quickParts.....", answer)
         time.sleep(1.5)
