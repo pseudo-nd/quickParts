@@ -1,0 +1,157 @@
+﻿<Window x:Class="quickPartsAPP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:quickPartsAPP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="800">
+    <Grid Background="#FF9E9E9E" DataContext="{Binding Source={StaticResource DataStore}}">
+        <Label Content="Customer:" HorizontalAlignment="Left" Margin="33.119,58.96,0,0" VerticalAlignment="Top"/>
+        <Label Content="Models" HorizontalAlignment="Left" Margin="46.794,99.337,0,0" VerticalAlignment="Top"/>
+        <Label Content="Serial:" HorizontalAlignment="Left" Margin="241.602,65.473,0,0" VerticalAlignment="Top"/>
+        <Label Content="Eng Serial:" HorizontalAlignment="Left" Margin="218.389,94.127,0,0" VerticalAlignment="Top"/>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="245.582,122.672,0,0" VerticalAlignment="Top"/>
+        <Label Content="Material:" HorizontalAlignment="Left" Margin="232.23,148.83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Year:" HorizontalAlignment="Left" Margin="248.862,176.181,0,0" VerticalAlignment="Top"/>
+        <Label Content="Note:" HorizontalAlignment="Left" Margin="242.692,208.743,0,0" VerticalAlignment="Top"/>
+        <ListView HorizontalAlignment="Left" Height="100" Margin="93.033,105.85,0,0" VerticalAlignment="Top" Width="100">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="93.684,61.567,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="280.587,68.731,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="281.238,96.734,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Grid Background="#FF9E9E9E">
+            <Label Content="Customer:" HorizontalAlignment="Left" Margin="33.119,58.96,0,0" VerticalAlignment="Top"/>
+            <Label Content="Models" HorizontalAlignment="Left" Margin="38.883,89.92,0,0" VerticalAlignment="Top"/>
+            <Label Content="Serial:" HorizontalAlignment="Left" Margin="278.656,58.96,0,0" VerticalAlignment="Top"/>
+            <Label Content="Eng Serial:" HorizontalAlignment="Left" Margin="255.443,89.92,0,0" VerticalAlignment="Top"/>
+            <Label Content="Type:" HorizontalAlignment="Left" Margin="282.636,120.88,0,0" VerticalAlignment="Top"/>
+            <Label Content="Material:" HorizontalAlignment="Left" Margin="264.08,148.089,0,0" VerticalAlignment="Top"/>
+            <Label Content="Year:" HorizontalAlignment="Left" Margin="282.636,170.96,0,0" VerticalAlignment="Top"/>
+            <Label Content="Note:" HorizontalAlignment="Left" Margin="281.05,197.049,0,0" VerticalAlignment="Top"/>
+            <ListView HorizontalAlignment="Left" Height="100" Margin="93.033,89.92,0,0" VerticalAlignment="Top" Width="100" DataContext="{Binding Models}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <local:customerform Margin="93.033,58.96,580.567,968.44"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="325,58.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="325,114.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="325,86.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="325,142.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="325,170.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="325,198.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Staple Parts" HorizontalAlignment="Left" Margin="33.119,297.963,0,0" VerticalAlignment="Top"/>
+            <Label Content="Recommended" HorizontalAlignment="Left" Margin="556.057,297.963,0,0" VerticalAlignment="Top"/>
+            <Label Content="Speciality" HorizontalAlignment="Left" Margin="33.119,455,0,0" VerticalAlignment="Top"/>
+            <Label Content="Attachments" HorizontalAlignment="Left" Margin="563.123,455,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Filters" HorizontalAlignment="Left" Margin="78.741,206.129,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Labels" HorizontalAlignment="Left" Margin="159.971,206.129,0,0" VerticalAlignment="Top"/>
+            <ListView HorizontalAlignment="Left" Height="126.077" Margin="38.883,323.923,0,0" VerticalAlignment="Top" Width="281.116">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView HorizontalAlignment="Left" Height="126.077" Margin="358.884,323.923,0,0" VerticalAlignment="Top" Width="281.116">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView HorizontalAlignment="Left" Height="126.077" Margin="358.884,480.96,0,0" VerticalAlignment="Top" Width="281.116">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView HorizontalAlignment="Left" Height="126.077" Margin="38.883,480.96,0,0" VerticalAlignment="Top" Width="281.116">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <TabControl HorizontalAlignment="Left" Height="45" Margin="10,0,0,0" VerticalAlignment="Top" Width="772">
+                <TabItem x:Name="___Customer_" Header="Customer">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF0C950C" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem x:Name="___Spring_" Header="Spring">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF0C7695" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem x:Name="___Summer_" Header="Summer">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FFD1DC60" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem x:Name="___Fall_" Header="Fall">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF8F5706" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="71*"/>
+                            <ColumnDefinition Width="312*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="___Winter_" Header="Winter">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF958773" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem x:Name="___Misc_" Header="Misc" Margin="-2,-2,-2,0">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF680A42" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem x:Name="___Dashboard_" Header="Dashboard" Margin="-2,-2,-2,0">
+                    <TabItem.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF0C950C" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>
